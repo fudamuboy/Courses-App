@@ -24,3 +24,7 @@ Kullanılan Teknolojiler:
     State Yönetimi: useState kullanılarak giriş verisi kontrol edilir.
 
 Bu bileşen, projelerde bir kurs ekleme veya benzeri veri giriş formları için kullanılabilir.
+
+# Look at the examples videos below
+
+https://github.com/user-attachments/assets/48383ccc-8671-4885-a79d-a1a49ad84259
