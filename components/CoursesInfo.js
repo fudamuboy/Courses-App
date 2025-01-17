@@ -17,10 +17,12 @@ export default function CoursesInfo({ visible, onAddCourse, onCancel }) {
     // recuperationde la value avec son attribut pr oeration so pr envoyer ust const 
     const inputText = (enterCourseText) => {
         setEnterCourseText(enterCourseText)
+
     }
+    // burda "fade " yerine "slide ya da none ekleyebilirm"
     return (
         <Modal
-            animationType="slide"
+            animationType="fade"
             visible={visible}            // for opening modal otehrwise use false 
         >
             <View style={styles.centeredView}>
@@ -64,10 +66,6 @@ const styles = StyleSheet.create({
     btnContainer: {
         flexDirection: 'row',
         marginTop: 10,
-
-
-
-
 
     },
     btn: {
